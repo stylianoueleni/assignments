@@ -1,0 +1,43 @@
+#BlueJ class context
+comment0.target=MyResizableIntArrayList
+comment0.text=\r\n\ Creates\ a\ resizable\ array\ list\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 27/11/2021\r\n
+comment1.params=
+comment1.target=MyResizableIntArrayList()
+comment1.text=\r\n\ Constracts\ a\ resizable\ array-list\ of\ integers\ with\ capacity\=1.\r\n
+comment10.params=
+comment10.target=boolean\ isEmpty()
+comment10.text=\r\n\ Tests\ if\ this\ array-list\ is\ empty.\r\n
+comment11.params=index
+comment11.target=void\ remove(int)
+comment11.text=\r\n\ Removes\ the\ element\ at\ the\ specified\ position\ in\ this\ array-list.\r\n\ index\ -\ The\ position\ of\ the\ element\ to\ be\ removed.\ It\ MUST\ hold\ that\ (index\ >\=\ 0\ &&\ size()\ >\ index).\r\n
+comment12.params=index\ elem
+comment12.target=void\ set(int,\ int)
+comment12.text=\r\n\ Replaces\ the\ element\ at\ the\ specified\ position\ in\ this\ array-list\ with\ the\ specified\ element.\r\n\ index\ -\ The\ index\ of\ the\ element\ to\ be\ replaced.\ It\ MUST\ hold\ that\ (index\ >\=\ 0\ &&\ size()\ >index).\r\n\ elem\ -\ The\ new\ element.\r\n
+comment13.params=
+comment13.target=int\ size()
+comment13.text=\r\n\ The\ size\ of\ this\ array-list.\r\n
+comment2.params=initialCapacity
+comment2.target=MyResizableIntArrayList(int)
+comment2.text=\r\n\ Constracts\ a\ resizable\ array-list\ of\ integers\ with\ the\ capacity\ given\ by\ the\ user.\r\n\ initialCapacity\ -\ The\ initial\ capacity\ of\ the\ resizable\ array-list.\r\n
+comment3.params=newSize
+comment3.target=void\ resizeArray(int)
+comment3.text=\r\n\ Changes\ the\ size\ of\ the\ array.\r\n\ oldA\ -\ The\ array\ that\ we\ want\ to\ resize\r\n\ newSize\ -\ The\ size\ of\ the\ new\ array\r\n
+comment4.params=elem
+comment4.target=void\ add(int)
+comment4.text=\r\n\ Appends\ a\ spesific\ element\ to\ the\ end\ of\ the\ resizable\ array-list.\r\n\ elem\ -\ The\ element\ to\ be\ appended.\r\n
+comment5.params=index\ elem
+comment5.target=void\ add(int,\ int)
+comment5.text=\r\n\ Inserts\ the\ specified\ element\ at\ the\ specified\ location\ in\ the\ resizable\ array-list.\r\n\ index\ -\ The\ index\ of\ the\ new\ element\ after\ it\ is\ inserted.\ It\ MUST\ hold\ that\ (index\ >\=\ 0\ &&\ size()\ >\=index).\r\n\ elem\ -\ The\ element\ to\ be\ inserted.\r\n
+comment6.params=
+comment6.target=void\ clear()
+comment6.text=\r\n\ Removes\ all\ the\ elements\ of\ the\ array-list\ and\ resets\ its\ capacity\ to\ 1.\r\n
+comment7.params=elem
+comment7.target=boolean\ contains(int)
+comment7.text=\r\n\ Checks\ whether\ this\ array-list\ contains\ a\ specific\ element.\r\n\ elem\ -\ The\ element\ in\ question\r\n
+comment8.params=index
+comment8.target=int\ get(int)
+comment8.text=\r\n\ Returns\ the\ element\ at\ the\ specified\ position\ in\ this\ array-list.\r\n
+comment9.params=elem
+comment9.target=int\ indexOf(int)
+comment9.text=\r\n\ Searches\ for\ the\ first\ occurence\ of\ the\ given\ argument.\ Returns\ the\ index\ of\ the\ first\ occurrence\ of\ the\ argument\ in\ this\ array-list;\ returns\ -1\ if\ the\ object\ is\ not\ found.\r\n\ elem\ -\ The\ element\ searched\ for.\r\n
+numComments=14

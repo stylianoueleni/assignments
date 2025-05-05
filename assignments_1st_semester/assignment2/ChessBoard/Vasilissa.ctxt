@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Vasilissa
+comment0.text=\r\n\ Class\ Vasilissa\ implements\ the\ "queen"\ pioni.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 14/01/2022\r\n
+comment1.params=isWhite
+comment1.target=Vasilissa(boolean)
+comment1.text=\r\n\ Constructor\ for\ class\ Vasilissa.\r\n\ isWhite\ -\ true\ if\ it\ is\ white,\ false\ if\ it\ is\ black\r\n
+comment2.params=x\ y\ b
+comment2.target=boolean\ isLegalMove(char,\ int,\ ChessBoard)
+comment2.text=\r\n\ Checks\ to\ see\ if\ the\ specified\ location\ is\ a\ legal\ destination\ for\ the\ this\ pioni.\r\n\ The\ specified\ destination\ must\ be\ different\ from\ the\ current\ location.\ \r\n\ The\ destination\ follow\ the\ format\:\ (char,\ int).\ \r\n\ Takes\ into\ account\ the\ chessboard\ and\ its\ contents.\r\n\ x\ -\ the\ X-coordinate\ of\ the\ destination.\r\n\ y\ -\ the\ Y-coordinate\ of\ the\ destination.\r\n\ b\ -\ the\ ChessBoard\ on\ which\ the\ chess\ game\ is\ played.\r\n
+numComments=3

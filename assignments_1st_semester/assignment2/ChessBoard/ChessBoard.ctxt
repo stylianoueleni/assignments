@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ChessBoard
+comment0.text=\r\n\ This\ class\ creates\ and\ manages\ the\ chessBoard\ placing\ and\ moving\ chess\ pieces\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 14/01/2022\r\n
+comment1.params=
+comment1.target=ChessBoard()
+comment1.text=\r\n\ Constructor\ for\ class\ ChessBoard.\r\n
+comment2.params=
+comment2.target=void\ loadBoard()
+comment2.text=\r\n\ Places\ all\ pieces\ on\ the\ board\ for\ a\ new\ game\ to\ begin.\r\n
+comment3.params=
+comment3.target=void\ printBoard()
+comment3.text=\r\n\ Prints\ the\ chessboard\ with\ all\ the\ pieces\ on\ it.\r\n
+comment4.params=xPos\ yPos
+comment4.target=Pioni\ getPioniAt(char,\ int)
+comment4.text=\r\n\ Returns\ the\ pioni\ at\ a\ given\ position.\r\n\ xPos\ -\ The\ X-coordinate\ of\ the\ position.\r\n\ yPos\ -\ The\ Y-coordinate\ of\ the\ position.\ \ \ \ \r\n
+comment5.params=p\ xPos\ yPos
+comment5.target=void\ placePioniAt(Pioni,\ char,\ int)
+comment5.text=\r\n\ Places\ a\ pioni\ at\ a\ location\ on\ the\ board.\r\n\ p\ -\ the\ pioni.\r\n\ xPos\ -\ the\ X-coordinate\ of\ the\ location.\r\n\ yPos\ -\ the\ Y-coordinate\ of\ the\ location.\r\n
+comment6.params=xOrig\ yOrig\ xDest\ yDest
+comment6.target=void\ move(char,\ int,\ char,\ int)
+comment6.text=\r\n\ Moves\ a\ pioni.\r\n\ xOrig\ -\ The\ X-coordinate\ of\ the\ origin\ of\ pioni.\r\n\ yOrig\ -\ The\ Y-coordinate\ of\ the\ origin\ of\ pioni.\r\n\ xDest\ -\ The\ X-coordinate\ of\ the\ destination\ of\ pioni.\r\n\ yDest\ -\ The\ Y-coordinate\ of\ the\ destination\ of\ pioni.\r\n
+numComments=7

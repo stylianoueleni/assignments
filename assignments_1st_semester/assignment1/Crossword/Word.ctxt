@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\r\n\ Describes\ a\ "word"\ as\ an\ element\ of\ a\ crossword\:\ the\ word\ its\ position\ its\ direction\ (horizontal\ or\ vertical).\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 27/11/2021\r\n
+comment1.params=newWord\ newX\ newY\ newDirection
+comment1.target=Word(java.lang.String,\ int,\ int,\ char)
+comment1.text=\r\n\ Creates\ a\ word\ with\ "position"\ and\ "direction"\ info.\r\n\ newWord\ -\ the\ word\r\n\ newX\ -\ the\ row\r\n\ newY\ -\ the\ column\r\n\ newDirection\ -\ the\ direction\ (values\ 'H'\ for\ Horizontal\ 'V'\ for\ Vertical)\r\n
+comment2.params=
+comment2.target=char\ getDirection()
+comment2.text=\r\n\ Returns\ the\ direction\ ('H'\ for\ horizontal\ 'V'\ for\ Vertical).\r\n
+comment3.params=
+comment3.target=java.lang.String\ getWord()
+comment3.text=\r\n\ Return\ the\ word.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getWordInfo()
+comment4.text=\r\n\ Returns\ the\ word\ and\ the\ position\ of\ word.\r\n
+comment5.params=
+comment5.target=int\ getX()
+comment5.text=\r\n\ Returns\ the\ row.\r\n
+comment6.params=
+comment6.target=int\ getY()
+comment6.text=\r\n\ Returns\ the\ column.\r\n
+numComments=7

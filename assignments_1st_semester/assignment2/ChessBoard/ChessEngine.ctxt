@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ChessEngine
+comment0.text=\r\n\ Class\ ChessEngine\ coordinates\ a\ game\ of\ chess\ between\ two\ players.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 14/01/2022\r\n
+comment1.params=
+comment1.target=ChessEngine()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ChessEngine\r\n
+comment2.params=
+comment2.target=void\ printNotation()
+comment2.text=\r\n\ Prints\ the\ standard\ notation\ used\ for\ the\ game.\r\n
+comment3.params=
+comment3.target=void\ playChess()
+comment3.text=\r\n\ Initializes\ a\ game\ of\ chess.\r\n
+comment4.params=xOrig\ yOrig\ xDest\ yDest
+comment4.target=void\ nextMove(char,\ int,\ char,\ int)
+comment4.text=\r\n\ The\ player\ makes\ his\ move.\ If\ the\ move\ is\ valid,\ it\ is\ executed\ and\ the\ other\ player\ is\ prompted\ to\ play.\ Otherwise,\ no\ action\ is\ taken\ and\ the\ player\ is\ asked\ to\ make\ a\ valid\ move.\r\n\ xOrig\ -\ the\ X-coordinate\ of\ the\ origin.\r\n\ yOrig\ -\ the\ Y-coordinate\ of\ the\ origin.\r\n\ xDest\ -\ the\ X-coordinate\ of\ the\ destination.\r\n\ yDest\ -\ the\ Y-coordinate\ of\ the\ destination.\r\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ChessGUI
+comment1.params=
+comment1.target=ChessGUI()
+comment2.params=
+comment2.target=void\ drawChess()
+comment3.params=
+comment3.target=void\ clearChess()
+comment4.params=xOrig\ yOrig\ xDest\ yDest
+comment4.target=void\ nextMove(char,\ int,\ char,\ int)
+comment5.params=
+comment5.target=void\ initializeGui()
+numComments=6

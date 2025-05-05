@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Utilities
+comment0.text=\r\n\ Class\ Utilities\ provide\ methods\ for\ turning\ letters\ of\ the\ chess-board\ to\ numbers\ and\ vice-versa.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ 14/01/2022\r\n
+comment1.params=
+comment1.target=Utilities()
+comment1.text=\r\n\ Constructor\ for\ class\ Utilities.\r\n
+comment2.params=xCharPos
+comment2.target=int\ char2Int(char)
+comment2.text=\r\n\ Changes\ a\ char\ in\ ['A'..'H']\ to\ a\ number\ in\ [1..8].\r\n\ xCharPos\ -\ the\ character.\r\n
+comment3.params=xIntPos
+comment3.target=char\ int2Char(int)
+comment3.text=\r\n\ Changes\ a\ number\ in\ [1..8]\ to\ a\ char\ in\ ['A'..'H'].\r\n\ xIntPos\ -\ the\ number\r\n
+numComments=4

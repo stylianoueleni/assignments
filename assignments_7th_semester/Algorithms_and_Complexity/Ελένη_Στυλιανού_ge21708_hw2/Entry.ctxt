@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Entry
+comment0.text=\r\n\ Interface\ for\ a\ key-value\ pair.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=
+comment1.target=java.lang.Object\ getKey()
+comment1.text=\r\n\ Returns\ the\ key\ stored\ in\ this\ entry.\r\n\ @return\ the\ entry's\ key\r\n
+comment2.params=
+comment2.target=java.lang.Object\ getValue()
+comment2.text=\r\n\ Returns\ the\ value\ stored\ in\ this\ entry.\r\n\ @return\ the\ entry's\ value\r\n
+numComments=3

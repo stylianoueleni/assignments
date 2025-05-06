@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AbstractPriorityQueue
+comment0.text=\r\n\ An\ abstract\ base\ class\ to\ ease\ the\ implementation\ of\ the\ PriorityQueue\ interface.\r\n\r\n\ The\ base\ class\ provides\ four\ means\ of\ support\:\r\n\ 1)\ It\ defines\ a\ PQEntry\ class\ as\ a\ concrete\ implementation\ of\ the\r\n\ \ \ \ entry\ interface\r\n\ 2)\ It\ provides\ an\ instance\ variable\ for\ a\ general\ Comparator\ and\ a\r\n\ \ \ \ protected\ method,\ compare(a,\ b),\ that\ makes\ use\ of\ the\ comparator.\r\n\ 3)\ It\ provides\ a\ boolean\ checkKey\ method\ that\ verifies\ that\ a\ given\ key\r\n\ \ \ \ is\ appropriate\ for\ use\ with\ the\ comparator\r\n\ 4)\ It\ provides\ an\ isEmpty\ implementation\ based\ upon\ the\ abstract\ size()\ method.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=c
+comment1.target=AbstractPriorityQueue(java.util.Comparator)
+comment1.text=\r\n\ Creates\ an\ empty\ priority\ queue\ using\ the\ given\ comparator\ to\ order\ keys.\r\n\ @param\ c\ comparator\ defining\ the\ order\ of\ keys\ in\ the\ priority\ queue\r\n
+comment2.params=
+comment2.target=AbstractPriorityQueue()
+comment2.text=Creates\ an\ empty\ priority\ queue\ based\ on\ the\ natural\ ordering\ of\ its\ keys.
+comment3.params=a\ b
+comment3.target=int\ compare(Entry,\ Entry)
+comment3.text=Method\ for\ comparing\ two\ entries\ according\ to\ key
+comment4.params=key
+comment4.target=boolean\ checkKey(java.lang.Object)
+comment4.text=Determines\ whether\ a\ key\ is\ valid.
+comment5.params=
+comment5.target=boolean\ isEmpty()
+comment5.text=\r\n\ Tests\ whether\ the\ priority\ queue\ is\ empty.\r\n\ @return\ true\ if\ the\ priority\ queue\ is\ empty,\ false\ otherwise\r\n
+numComments=6

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=LZ77
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LZ77\ here.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ December\ 2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=LZ77()
+comment2.text=\r\n\ constructor\r\n
+comment3.params=s\ searchBufferSize\ lookAheadBufferSize
+comment3.target=SinglyLinkedList\ encode(java.lang.String,\ int,\ int)
+comment3.text=\r\n\ encoding\ process\r\n\ returns\ a\ SinglyLinkedList\ that\ contains\ the\ triplets\ of\ the\ LZ77\ encoding\ \r\n
+comment4.params=s\ i\ start\ end
+comment4.target=LZ77triplet\ findMatch(java.lang.String,\ int,\ int,\ int)
+comment4.text=\r\n\ finds\ the\ longest\ match\ of\ strings\ using\ a\ search\ buffer\ and\ a\ look-ahead\ buffer\r\n
+comment5.params=list
+comment5.target=java.lang.String\ decode(SinglyLinkedList)
+comment5.text=\r\n\ decoding\ process\r\n\ returns\ the\ decoded\ string\ using\ a\ SinglyLinkedList\ as\ encoded\ form\r\n
+numComments=6

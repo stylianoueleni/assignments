@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=LZ77triplet
+comment1.params=o\ l\ c
+comment1.target=LZ77triplet(int,\ int,\ char)
+comment2.params=c
+comment2.target=LZ77triplet(char)
+comment3.params=
+comment3.target=int\ offset()
+comment4.params=
+comment4.target=int\ length()
+comment5.params=
+comment5.target=char\ character()
+comment6.params=o
+comment6.target=void\ setOffset(int)
+comment7.params=l
+comment7.target=void\ setLength(int)
+comment8.params=c
+comment8.target=void\ setCharacter(char)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

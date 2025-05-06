@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AbstractBinaryTree
+comment0.text=\r\n\ An\ abstract\ base\ class\ providing\ some\ functionality\ of\ the\ BinaryTree\ interface.\r\n\r\n\ The\ following\ five\ methods\ remain\ abstract,\ and\ must\ be\ implemented\r\n\ by\ a\ concrete\ subclass\:\ size,\ root,\ parent,\ left,\ right.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=p
+comment1.target=Position\ sibling(Position)
+comment1.text=\r\n\ Returns\ the\ Position\ of\ p's\ sibling\ (or\ null\ if\ no\ sibling\ exists).\r\n\r\n\ @param\ p\ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ the\ Position\ of\ the\ sibling\ (or\ null\ if\ no\ sibling\ exists)\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree\r\n
+comment2.params=p
+comment2.target=int\ numChildren(Position)
+comment2.text=\r\n\ Returns\ the\ number\ of\ children\ of\ Position\ p.\r\n\r\n\ @param\ p\ \ \ \ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ number\ of\ children\ of\ Position\ p\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree.\r\n
+comment3.params=p
+comment3.target=java.lang.Iterable\ children(Position)
+comment3.text=\r\n\ Returns\ an\ iterable\ collection\ of\ the\ Positions\ representing\ p's\ children.\r\n\r\n\ @param\ p\ \ \ \ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ iterable\ collection\ of\ the\ Positions\ of\ p's\ children\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree.\r\n
+comment4.params=p\ snapshot
+comment4.target=void\ inorderSubtree(Position,\ java.util.List)
+comment4.text=\r\n\ Adds\ positions\ of\ the\ subtree\ rooted\ at\ Position\ p\ to\ the\ given\r\n\ snapshot\ using\ an\ inorder\ traversal\r\n\ @param\ p\ \ \ \ \ \ \ Position\ serving\ as\ the\ root\ of\ a\ subtree\r\n\ @param\ snapshot\ \ a\ list\ to\ which\ results\ are\ appended\r\n
+comment5.params=
+comment5.target=java.lang.Iterable\ inorder()
+comment5.text=\r\n\ Returns\ an\ iterable\ collection\ of\ positions\ of\ the\ tree,\ reported\ in\ inorder.\r\n\ @return\ iterable\ collection\ of\ the\ tree's\ positions\ reported\ in\ inorder\r\n
+comment6.params=
+comment6.target=java.lang.Iterable\ positions()
+comment6.text=\r\n\ Returns\ an\ iterable\ collection\ of\ the\ positions\ of\ the\ tree\ using\ inorder\ traversal\r\n\ @return\ iterable\ collection\ of\ the\ tree's\ positions\ using\ inorder\ traversal\r\n
+numComments=7

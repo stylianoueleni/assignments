@@ -1,0 +1,20 @@
+function x = FPS(x0, g, Nfp)
+    n = length(x0);
+    x = x0;
+
+    for i = 1:Nfp
+        for j = 1:n
+            x(j) = g(x)(j);
+        end
+        x0 = x;
+    end
+end
+
+function y = s(x, A, h)
+    n = length(x);
+    y = zeros(n, 1);
+
+    for i = 1:n
+        y(i) = h * A(i, :) * x;
+    end
+end

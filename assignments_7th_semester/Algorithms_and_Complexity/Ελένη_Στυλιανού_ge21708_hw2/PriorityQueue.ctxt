@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PriorityQueue
+comment0.text=\r\n\ Interface\ for\ the\ priority\ queue\ ADT.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=
+comment1.target=int\ size()
+comment1.text=\r\n\ Returns\ the\ number\ of\ items\ in\ the\ priority\ queue.\r\n\ @return\ number\ of\ items\r\n
+comment2.params=
+comment2.target=boolean\ isEmpty()
+comment2.text=\r\n\ Tests\ whether\ the\ priority\ queue\ is\ empty.\r\n\ @return\ true\ if\ the\ priority\ queue\ is\ empty,\ false\ otherwise\r\n
+comment3.params=key\ value
+comment3.target=Entry\ insert(java.lang.Object,\ java.lang.Object)
+comment3.text=\r\n\ Inserts\ a\ key-value\ pair\ and\ returns\ the\ entry\ created.\r\n\ @param\ key\ \ \ \ \ the\ key\ of\ the\ new\ entry\r\n\ @param\ value\ \ \ the\ associated\ value\ of\ the\ new\ entry\r\n\ @return\ the\ entry\ storing\ the\ new\ key-value\ pair\r\n\ @throws\ IllegalArgumentException\ if\ the\ key\ is\ unacceptable\ for\ this\ queue\r\n
+comment4.params=
+comment4.target=Entry\ min()
+comment4.text=\r\n\ Returns\ (but\ does\ not\ remove)\ an\ entry\ with\ minimal\ key.\r\n\ @return\ entry\ having\ a\ minimal\ key\ (or\ null\ if\ empty)\r\n
+comment5.params=
+comment5.target=Entry\ removeMin()
+comment5.text=\r\n\ Removes\ and\ returns\ an\ entry\ with\ minimal\ key.\r\n\ @return\ the\ removed\ entry\ (or\ null\ if\ empty)\r\n
+numComments=6

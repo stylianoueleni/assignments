@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DefaultComparator
+comment0.text=\r\n\ Comparator\ based\ on\ the\ compareTo\ method\ of\ a\ Comparable\ element\ type.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=a\ b
+comment1.target=int\ compare(java.lang.Object,\ java.lang.Object)
+comment1.text=\r\n\ Compares\ two\ elements.\r\n\r\n\ @return\ a\ negative\ integer\ if\ <tt>a</tt>\ is\ less\ than\ <tt>b</tt>,\r\n\ zero\ if\ <tt>a</tt>\ equals\ <tt>b</tt>,\ or\ a\ positive\ integer\ if\r\n\ <tt>a</tt>\ is\ greater\ than\ <tt>b</tt>\r\n
+numComments=2

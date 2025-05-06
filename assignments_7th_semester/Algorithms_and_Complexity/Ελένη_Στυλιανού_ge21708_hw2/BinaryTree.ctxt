@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinaryTree
+comment0.text=\r\n\ An\ interface\ for\ a\ binary\ tree,\ in\ which\ each\ node\ has\ at\ most\ two\ children.\r\n\r\n\ @author\ Michael\ T.\ Goodrich\r\n\ @author\ Roberto\ Tamassia\r\n\ @author\ Michael\ H.\ Goldwasser\r\n
+comment1.params=p
+comment1.target=Position\ left(Position)
+comment1.text=\r\n\ Returns\ the\ Position\ of\ p's\ left\ child\ (or\ null\ if\ no\ child\ exists).\r\n\r\n\ @param\ p\ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ the\ Position\ of\ the\ left\ child\ (or\ null\ if\ no\ child\ exists)\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree\r\n
+comment2.params=p
+comment2.target=Position\ right(Position)
+comment2.text=\r\n\ Returns\ the\ Position\ of\ p's\ right\ child\ (or\ null\ if\ no\ child\ exists).\r\n\r\n\ @param\ p\ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ the\ Position\ of\ the\ right\ child\ (or\ null\ if\ no\ child\ exists)\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree\r\n
+comment3.params=p
+comment3.target=Position\ sibling(Position)
+comment3.text=\r\n\ Returns\ the\ Position\ of\ p's\ sibling\ (or\ null\ if\ no\ sibling\ exists).\r\n\r\n\ @param\ p\ A\ valid\ Position\ within\ the\ tree\r\n\ @return\ the\ Position\ of\ the\ sibling\ (or\ null\ if\ no\ sibling\ exists)\r\n\ @throws\ IllegalArgumentException\ if\ p\ is\ not\ a\ valid\ Position\ for\ this\ tree\r\n
+numComments=4

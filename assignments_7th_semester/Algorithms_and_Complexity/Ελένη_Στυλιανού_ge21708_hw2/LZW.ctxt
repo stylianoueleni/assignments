@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LZW
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LZW\ here.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ December\ 2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=s
+comment2.target=java.util.List\ encode(java.lang.String)
+comment2.text=\r\n\ Encoding\ process\ using\ LZW.\r\n\ @param\ s\ The\ input\ string\ to\ encode.\r\n\ @return\ A\ list\ of\ integers\ representing\ the\ encoded\ data.\r\n
+comment3.params=encoded
+comment3.target=java.lang.String\ decode(java.util.List)
+comment3.text=\r\n\ Decoding\ process\ using\ LZW.\r\n\ @param\ encoded\ A\ list\ of\ integers\ representing\ the\ encoded\ data.\r\n\ @return\ The\ decoded\ string.\r\n
+numComments=4

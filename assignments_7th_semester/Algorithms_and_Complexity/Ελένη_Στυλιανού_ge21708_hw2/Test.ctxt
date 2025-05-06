@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Test
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Test\ here.\r\n\r\n\ Eleni\ Stylianou\ ge21708\r\n\ December\ 2024\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=size\ n
+comment2.target=java.lang.String\ randomString(int,\ int)
+comment2.text=\r\n\ creates\ a\ random\ string\ of\ length\ n\ with\ characters\ a...z\ (not\ capital)\r\n
+comment3.params=a
+comment3.target=long\ findSum(long[])
+comment4.params=encodingTimes\ decodingTimes
+comment4.target=void\ printTimes(long[][],\ long[][])
+comment5.params=encoding\ decoding
+comment5.target=void\ printAvg(long[],\ long[])
+comment6.params=sizes
+comment6.target=void\ printSizes(long[][])
+comment7.params=name\ a\ metrics\ space
+comment7.target=void\ printRow(java.lang.String,\ long[],\ java.lang.String,\ java.lang.String)
+comment8.params=avg\ size
+comment8.target=void\ printAvgSizes(long[],\ int)
+numComments=9
